@@ -1,0 +1,29 @@
+{
+  "general": {
+    "mc_id": "",
+    "mc_number": "",
+    "mc_name": "",
+    "mc_type": "",
+    "mc_model": "",
+    "mc_serial": "",
+    "mf_name": "",
+    "mf_phone_pri": "",
+    "mf_phone_sec": "",
+    "mf_email": "",
+    "mf_address": "",
+    "sl_name": "",
+    "sl_phone_pri": "",
+    "sl_phone_sec": "",
+    "sl_email": "",
+    "sl_address": "",
+    "inst_date": 0,
+    "remark": "",
+    "purpose": ""
+  },
+  "operational_threshold": {},
+  "maintenance_activity": {},
+  "real_time_data": {
+    "status": "on",
+    "last_updated_time": 0
+  }
+}

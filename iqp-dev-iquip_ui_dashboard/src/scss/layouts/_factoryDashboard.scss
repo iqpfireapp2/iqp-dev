@@ -1,0 +1,7 @@
+@import './../base/_variables.scss';
+
+.factory-dashboard {
+  margin-top: $header-top;
+  width: 100%;
+  transition: $nav-side-menu-transition;
+}

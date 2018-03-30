@@ -1,0 +1,111 @@
+@import './../base/_variables.scss';
+
+.processing-line-main{
+  border: none;
+  background: none;
+}
+
+.processing-line-title{
+  margin-top: 0;
+}
+
+.processing-line-img{
+  float: right;
+  height: 80px;
+  width: 80px;
+}
+
+.processing-line-status{
+  border-radius: 25px;
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.processing-line-pdiv-center {
+  text-align:center;
+}
+.processing-line-cdiv-center {
+  display:inline-block;
+  margin: 0 auto;
+}
+
+.processing-line-text-center{
+  text-align: center !important;
+}
+
+.processing-line-text-small7{
+  font-size: 0.7rem;
+}
+
+.processing-line-text-small8{
+  font-size: 0.8rem;
+}
+
+.processing-line-text-bold{
+  font-weight: bold;
+}
+
+.processing-line-nopadding{
+  padding: 0;
+}
+
+.processing-line-nopaddingbottom{
+  padding-bottom: 0;
+}
+
+.processing-line-padding-l5r5{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.processing-line-nomarginbottom{
+  margin-bottom: 0;
+}
+
+.red{
+  background: $processing-line-red-status;
+}
+
+.amber{
+  background: $processing-line-amber-status;
+}
+
+.green{
+  background: $processing-line-green-status;
+}
+
+.processing-line-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.processing-line-tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.processing-line-tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.processing-line-tooltip:hover .tooltiptext {
+  visibility: visible;
+}

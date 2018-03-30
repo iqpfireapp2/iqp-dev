@@ -1,0 +1,124 @@
+@import './../base/_variables.scss';
+
+.machine-dashboard {
+  margin-top: $header-top;
+  width: 100%;
+  transition: $nav-side-menu-transition;
+}
+
+.machine-dashboard-heading-form-btn{
+  margin: 0 !important;
+  padding: 4px 8px 4px 8px;
+}
+
+.machine-dashboard-heading-form{
+  margin: 0 !important;
+  padding: 4px 8px 4px 8px;
+}
+
+.machine-dashboard-heading{
+  &.success{
+    background-color: #4dbd74;
+  }
+  &.warning{
+    background-color: #ffbe70;
+  }
+  &.danger{
+    background-color: #f86c6b;
+  }
+}
+
+.machine-dashboard-title{
+  font-size: 20px;
+  font-weight: 500;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.machine-dashboard-title-icons{
+  float: right;
+}
+
+.machine-dashboard-carousel-item{
+  padding: 10px;
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  &.selected{
+    background-color: #96beff;
+    a{
+      h6{
+        color: white;
+      }
+    }
+  }
+  &.success{
+    background-color: #4dbd74;
+    a{
+      h6{
+        color: white;
+      }
+    }
+  }
+  &.warning{
+    background-color: #ffbe70;
+    a{
+      h6{
+        color: black;
+      }
+    }
+  }
+  &.danger{
+    background-color: #f86c6b;
+    a{
+      h6{
+        color: white;
+      }
+    }
+  }
+}
+
+.machine-dashboard-info-button{
+  text-decoration: none;
+  float: right;
+  background-color: lighten($btn-hamburger-color, 30%);
+  color: darken($btn-hamburger-color, 30%);
+  &:hover{
+    background-color: lighten($btn-hamburger-color, 15%);
+  }
+}
+
+.machine-chart-heading{
+  margin-top: 0 !important;
+}
+
+.machine-chart-img{
+  height: 263px;
+  width: 510px;
+}
+
+.machine-dashboard-carousel-control{
+  background-image: none !important;
+  border: none !important;
+}
+
+.machine-dashboard-carousel-control-icon{
+  color: $btn-hamburger-color !important;
+}
+
+.machine-dashboard-card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #c2cfd6;
+  margin: 0.25rem 0 0.25rem 0;
+}

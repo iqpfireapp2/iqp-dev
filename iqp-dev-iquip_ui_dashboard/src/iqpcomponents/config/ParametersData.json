@@ -1,0 +1,18 @@
+{
+  "temperature": {
+    "name":"Temperature",
+    "icon":"fa fa-thermometer-half"
+  },
+  "oilLevel": {
+    "name":"Oil Level",
+    "icon":"fa fa-filter"
+  },
+  "vibration": {
+    "name":"Vibration",
+    "icon":"fa fa-microchip"
+  },
+  "noise": {
+    "name":"Noise",
+    "icon":"fa fa-volume-up"
+  }
+}

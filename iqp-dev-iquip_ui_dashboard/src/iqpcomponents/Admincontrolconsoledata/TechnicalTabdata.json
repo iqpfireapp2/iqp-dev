@@ -1,0 +1,422 @@
+[
+    {
+        "label": "*Processing Line Name"
+   
+      },
+    {
+     "label": "*Processing Line No."
+
+   },
+   {
+    "label": "*Machine Name"
+
+  },
+  {
+    "label": "*Machine Number"
+
+  },  {
+    "label": "Machine Type"
+
+  },
+  {
+    "label": "Model"
+
+  },
+  {
+    "label": "Serial No."
+
+  },
+  {
+    "label": "Manufacture Info"
+
+  },
+  {
+    "label": "Name"
+
+  },
+  {
+    "label": "Phone"
+
+  },
+  {
+    "label": "E-mail"
+
+  },
+  {
+    "label": "Address"
+
+  },
+  
+  {
+    "label": "Seller Info"
+
+  },
+  {
+    "label": "Installation Date"
+
+  },
+  {
+    "label": "Purpose/Description"
+
+  },
+  
+  
+  
+
+    {
+        "Proceesing_Line" :"P001",
+         "Processing_Line_no": "1",   
+    
+        "a": {
+            "Machine":"M011",
+       
+      "Machine_Name" : "Lathe",
+      "Machine_Type": "Lathe",
+      "Machine_Id":"M011",
+    "Model" : "M00039593",
+    "Serial_no":"F01150150",
+    
+    
+    "Manufactureinfo":"",
+    
+    "Name": "SunRIse",
+    "Phone1":"9454523626",
+    "Phone2":"9454562612",
+    "Phone3":"9454523623",
+    "1":"Something@gmail.com",
+    
+    "Seller_info":"",
+    "Address":"#405,JC Road,Jayanagar, Bang-85",
+    "Installatio_Date":"08/10/2016",
+    "Purpsoe_Description": "For Lathe Operation",
+    "Remarks":"No Remarks"
+        }
+      },   
+      {
+        "Proceesing_Line" :"P002",
+         "Processing_Line_no": "2",   
+        
+        "a": {
+            "Machine":"M021",
+          
+      "Machine_Name" : "Lathe",
+      "Machine_Type": "Lathe",
+      "Machine_Id":"M001",
+    "Model" : "M00039593",
+    "Serial_no":"F01150150",
+    "Manufactureinfo":"",
+    
+    "Name": "Sunrise Pvt Ltd.",
+    "Phone1":"9454523626",
+    "Phone2":"9454562612",
+    "Phone3":"9454523623",
+    "Email":"Something@gmail.com",
+    
+    "Seller_info":"",
+    "Address":"#405,JC Road,Jayanagar, Bang-85",
+    "Installatio_Date":"08/10/2016",
+    "Purpsoe_Description": "For Lathe Operation",
+    "Remarks":"No Remarks"
+                }
+            },
+    
+      {
+        "Proceesing_Line" :"P003",
+        "Processing_Line_no": "3",  
+          "a": {
+            "Machine":"M031",
+           "Machine_Name" : "Turning",
+        "Machine Type": "Lathe",
+      "Model" : "M00039593",
+      "Serial_no":"F01150150",
+      "Manufactureinfo":"",
+      
+      "Name": "Sunrise Pvt Ltd.",
+      "Phone1":"9454523626",
+      "Phone2":"9454562612",
+      "Phone3":"9454523623",
+      "Email":"Something@gmail.com",
+      "Seller_info":"",
+      "Installatio_Date":"08/10/2016",
+      "Purpsoe_Description": "For Lathe Operation",
+      "Remarks":"No Remarks"
+          
+          }
+                 },
+      
+                {
+                  "Proceesing_Line" :"P004",
+                  "Processing_Line_no": "4",  
+                    "a": {
+                        "Machine":"M042",
+                        
+                        "Machine_Name" : "Turning",
+                  "Machine Type": "Lathe",
+                "Model" : "M00039593",
+                "Serial_no":"F01150150",
+                "Manufactureinfo":"",
+                
+                "Name": "Sunrise Pvt Ltd.",
+                "Phone1":"9454523626",
+                "Phone2":"9454562612",
+                "Phone3":"9454523623",
+                "Email":"Something@gmail.com",
+                "Seller_info":"",
+                "Installatio_Date":"08/10/2016",
+                "Purpsoe_Description": "For Lathe Operation",
+                "Remarks":"No Remarks"
+                    
+                    }
+                  },
+                    {
+                    "Proceesing_Line" :"P004",
+                    "Processing_Line_no": "4",  
+                      "a": {
+                        "Machine":"M043",
+                   
+                        "Machine_Name" : "Turning",
+                    "Machine Type": "Lathe",
+                  "Model" : "M00039593",
+                  "Serial_no":"F01150150",
+                  "Manufactureinfo":"",
+                  
+                  "Name": "Sunrise Pvt Ltd.",
+                  "Phone1":"9454523626",
+                  "Phone2":"9454562612",
+                  "Phone3":"9454523623",
+                  "Email":"Something@gmail.com",
+                  "Seller_info":"",
+                  "Installatio_Date":"08/10/2016",
+                  "Purpsoe_Description": "For Lathe Operation",
+                  "Remarks":"No Remarks"
+                      
+                      }
+                    },
+                    {
+                      "Proceesing_Line" :"P004",
+                      "Processing_Line_no": "4",  
+                        "a": {
+                            "Machine":"M044",
+                            
+                            "Machine_Name" : "Turning",
+                      "Machine Type": "Lathe",
+                    "Model" : "M00039593",
+                    "Serial_no":"F01150150",
+                    "Manufactureinfo":"",
+                    
+                    "Name": "Sunrise Pvt Ltd.",
+                    "Phone1":"9454523626",
+                    "Phone2":"9454562612",
+                    "Phone3":"9454523623",
+                    "Email":"Something@gmail.com",
+                    "Seller_info":"",
+                    "Installatio_Date":"08/10/2016",
+                    "Purpsoe_Description": "For Lathe Operation",
+                    "Remarks":"No Remarks"
+                        
+                        }
+                      },
+                                    
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Serial Number"     
+        }
+      },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Manufacture Info"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Machine"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Phone"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Phone"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Phone"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Email"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Address"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Seller Info"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Installation Date"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Purpose/Description"
+        }
+    
+    },
+    {
+        "Machine":"Admin",
+        "a": {
+      "Label" : "Remarks/Other Info "
+        }
+    
+    },
+    {
+        "Machine":"Technical",
+        "a": {
+       "Heading": "Temperature",   
+      "Label1" : "Senario Type",
+      "Label2" : "Bearable",
+      "Label3" : "*Critical"   
+        }
+      },
+    {
+        "Machine":"Technical",
+        "a": {
+          "Heading": "Vibration",
+    "Label1" : "Senario Type",
+      "Label2" : "Bearable",
+      "Label3" : "*Critical"   
+    
+        }
+      },
+    {
+        "Machine":"Technical",
+        "a": {
+          "Heading": "Oil Level",
+    "Label1" : "Senario Type",
+      "Label2" : "Bearable",
+      "Label3" : "*Critical"   
+    
+        }
+      },
+    {
+        "Machine":"Technical",
+        "a": {
+      "Heading": "pH",
+    "Label1" : "Senario Type",
+      "Label2" : "Bearable",
+      "Label3" : "*Critical"   
+    
+    }
+      },
+    {
+        "Machine":"Technical",
+        "a": {
+          "Heading": "Noise",
+    "Label1" : "Senario Type",
+      "Label2" : "Bearable",
+      "Label3" : "*Critical"   
+    
+        }
+      } ,
+    {
+        "Machine":"Maintanance",
+        "a": {
+        "SlN0": "1",
+          "Activity": "Maintanance for Machine 2 under Processing Line 1",
+    "Responsibility" : "Goutam Yadav",
+      "Last_Serviced_Date" : "11/08/2017",
+      "Duration" : "4 hours",
+    "Remarks":"Maitanance Done"   
+    
+    
+        }
+    
+      },
+      {
+        "Machine":"Maintanance",
+        "a": {
+        "SlN0": "2",
+          "Activity": "Maintanance for Machine 1 under Processing Line 2",
+    "Responsibility" : "Sagar Dhanshetti",
+      "Last_Serviced_Date" : "11/06/2017",
+      "Duration" : "4 hours",
+    "Remarks":"Maitanance Pending"   
+    
+    
+        }
+    
+      },
+      {
+        "Machine":"Maintanance",
+        "a": {
+        "SlN0": "3",
+          "Activity": "Maintanance for Machine 1 under Processing Line 1",
+    "Responsibility" : "Sampat Yadav",
+      "Last_Serviced_Date" : "21/07/2017",
+      "Duration" : "4 hours",
+    "Remarks":"Maitanance Pending"   
+    
+    
+        }
+    
+      },
+      {
+        "Machine":"Maintanance",
+        "a": {
+        "SlN0": "4",
+          "Activity": "Maintanance for Machine 1 under Processing Line 1",
+    "Responsibility" :"Sagar Yadav",
+      "Last_Serviced_Date" : "20/07/2017",
+      "Duration" : "4 hours",
+    "Remarks":"Maitanance Pending"   
+    
+    
+        }
+    
+      }
+    
+    
+    
+      ]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

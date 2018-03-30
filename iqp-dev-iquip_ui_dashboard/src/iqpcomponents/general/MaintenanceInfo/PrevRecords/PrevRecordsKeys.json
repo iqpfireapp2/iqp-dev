@@ -1,0 +1,22 @@
+[
+  {
+    "databaseKey": "activity",
+    "displayName": "Activity"
+  },
+  {
+    "databaseKey": "respPerson",
+    "displayName": "Responsible Person"
+  },
+  {
+    "databaseKey": "service",
+    "displayName": "Serviced Date"
+  },
+  {
+    "databaseKey": "duration",
+    "displayName": "Frequency"
+  },
+  {
+    "databaseKey": "remarks",
+    "displayName": "Remarks"
+  }
+]

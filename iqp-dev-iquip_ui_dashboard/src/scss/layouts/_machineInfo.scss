@@ -1,0 +1,73 @@
+@import './../base/_variables.scss';
+
+.machine-info {
+  margin-top: $header-top;
+  width: 100%;
+  transition: $nav-side-menu-transition;
+}
+
+.machine-info-content {
+  padding: 20px;
+  width: 100%;
+  background: $processing-line-heading-bg-color;
+}
+
+.machine-info-nav {
+  ul {
+    margin: 20px 0 0 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin-right: 5px;
+
+    a {
+      display: inline-block;
+      padding: 8px 10px;
+      color: $btn-hamburger-color;
+      text-decoration: none;
+
+      &:hover {
+        color: darken($btn-hamburger-color, 20%);
+        background: lighten($btn-hamburger-color, 30%);
+      }
+    }
+
+    &.current {
+      a {
+        color: darken($btn-hamburger-color, 40%);
+        background: $processing-line-heading-bg-color;
+      }
+    }
+  }
+}
+
+.machine-info-table {
+  tbody {
+    border: none !important;
+  }
+  td {
+    border: none !important;
+    width: 15%;
+  }
+  th {
+    border: none !important;
+  }
+}
+
+.machine-info-maintenance-add-button{
+  text-decoration: none;
+  background-color: lighten($btn-hamburger-color, 30%);
+  color: darken($btn-hamburger-color, 30%);
+  &:hover{
+    background-color: lighten($btn-hamburger-color, 15%);
+  }
+}
+
+.machine-info-pad10 {
+  padding: 10px;
+}
+
+.machine-info-cardText-noMargin {
+  margin: 0;
+}

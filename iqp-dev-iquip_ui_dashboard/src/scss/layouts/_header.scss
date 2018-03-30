@@ -1,0 +1,55 @@
+@import './../base/_variables.scss';
+
+.btn-hamburger {
+  color: $btn-hamburger-color;
+  font-size: 15px;
+  display: block !important;
+  float: left !important;
+  &:focus, &:hover{
+    color:$btn-hamburger-color-focus;
+    background-color: $btn-hamburger-bg-color-focus
+  }
+}
+
+.header-notify-menu{
+  width: 270px;
+  background-color: $light-color;
+  .nav-tabs {
+    .nav-link {
+      color: $gray-600;
+      padding-top: 5px !important;
+      padding-bottom: 5px !important;
+      border-color: $gray-800 !important;
+      &.active {
+        color: $gray-800;
+        background: #fff;
+        border-color: $gray-200;
+        border-bottom-color: #fff;
+      }
+      &:focus {
+        background: #fff;
+        border-color: $gray-200;
+        border-bottom-color: #fff;
+      }
+    }
+  }
+
+  .tab-content {
+    margin-top: -1px;
+    background: #fff;
+    border: 1px solid $gray-200;
+    overflow:auto;
+    max-height:350px;
+    .tab-pane {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+
+  .card-block {
+    .tab-content {
+      margin-top: 0;
+      border: 0;
+    }
+  }
+}

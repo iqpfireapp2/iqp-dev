@@ -1,0 +1,59 @@
+@import './../base/_variables.scss';
+
+.machinecard-main{
+  border: none;
+  background: none;
+}
+
+.machinecard-title{
+  margin-top: 0;
+  a{
+    color: black;
+  }
+}
+
+.machinecard-title-success{
+  background-color: #4dbd74;
+}
+
+.machinecard-title-warning{
+  background-color: #f8cb00;
+}
+
+.machinecard-title-danger{
+  background-color: #f86c6b;
+}
+
+.machinecard-title-icons{
+  float: right;
+}
+
+.machinecard-img{
+  float: right;
+  height: 80px;
+  width: 80px;
+}
+
+.machinecard-status{
+  border-radius: 25px;
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.machinecard-cardblock-margin{
+  flex: 1 1 auto;
+  padding: 0.25rem;
+}
+
+.machinecard-card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #c2cfd6;
+  margin-bottom: 0.25rem;
+}

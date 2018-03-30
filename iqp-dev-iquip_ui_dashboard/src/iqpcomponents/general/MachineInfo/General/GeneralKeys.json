@@ -1,0 +1,74 @@
+[
+  {
+    "databaseKey": "id",
+    "displayName": "Machine Id"
+  },
+  {
+    "databaseKey": "name",
+    "displayName": "Name"
+  },
+  {
+    "databaseKey": "machineNumber",
+    "displayName": "Machine Number"
+  },
+  {
+    "databaseKey": "machineType",
+    "displayName": "Machine Type"
+  },
+  {
+    "databaseKey": "model",
+    "displayName": "Model"
+  },
+  {
+    "databaseKey": "serial",
+    "displayName": "Serial No"
+  },
+  {
+    "displayName": "Manufacturer Info",
+    "child": [
+      {
+        "databaseKey": "manufactureName",
+        "displayName": "Name"
+      },{
+        "databaseKey": "manufactureNo",
+        "displayName": "Phone"
+      },{
+        "databaseKey": "manufactureEmail",
+        "displayName": "e-mail"
+      },{
+        "databaseKey": "manufactureAddress",
+        "displayName": "Address"
+      }
+    ]
+  },
+  {
+    "displayName": "Seller Info",
+    "child": [
+      {
+        "databaseKey": "sellerName",
+        "displayName": "Name"
+      },{
+        "databaseKey": "sellerNo",
+        "displayName": "Phone"
+      },{
+        "databaseKey": "sellerEmail",
+        "displayName": "e-mail"
+      },{
+        "databaseKey": "sellerAddress",
+        "displayName": "Address"
+      }
+    ]
+  },
+  {
+    "databaseKey": "installationDate",
+    "displayName": "Installation Date"
+  },
+  {
+    "databaseKey": "purpose",
+    "displayName": "Purpose/Description"
+  },
+  {
+    "databaseKey": "remarks",
+    "displayName": "Remarks/Other Info"
+  }
+]

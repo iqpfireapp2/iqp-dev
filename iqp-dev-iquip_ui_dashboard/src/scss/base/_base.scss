@@ -1,0 +1,20 @@
+@import './_variables.scss';
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: 1.7em;
+  color: $base-font-color;
+}
+
+a {
+  color: $primary-color;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input, textarea, button {
+  border-radius: 0;
+}

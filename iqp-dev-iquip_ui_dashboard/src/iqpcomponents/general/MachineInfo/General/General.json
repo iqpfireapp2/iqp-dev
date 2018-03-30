@@ -1,0 +1,47 @@
+{
+  "M001": {
+    "id": "M001",
+    "name": "Lathe",
+    "machineNumber": "MC001",
+    "machineType": "Type A",
+    "model": "MCQ001",
+    "serial": "SMC001",
+    "manufactureName": "Bosch",
+    "manufactureNo": [
+      {
+        "key": "Phone",
+        "data": "+91-1234567890"
+      },
+      {
+        "key": "Phone",
+        "data": "+91-1472583690"
+      },
+      {
+        "key": "Phone",
+        "data": "+91-1928376450"
+      }
+    ],
+    "manufactureEmail": "abc@gmail.com",
+    "manufactureAddress": "BTM layout, Bangaluru, Karnataka, Zip:560068",
+    "sellerName": "Bosch",
+    "sellerNo": [
+      {
+        "key": "Phone",
+        "data": "+91-1234567890"
+      },
+      {
+        "key": "Phone",
+        "data": "+91-1472583690"
+      },
+      {
+        "key": "Phone",
+        "data": "+91-1928376450"
+      }
+    ],
+    "sellerEmail": "abc@gmail.com",
+    "sellerAddress": "BTM layout, Bangaluru, Karnataka, Zip:560068",
+    "installationDate": "23-08-2017",
+    "purpose": "New machine New machineNew machineNew machineNew machineNew machine",
+    "remarks": "New machine"
+  }
+}

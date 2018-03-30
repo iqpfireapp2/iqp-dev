@@ -1,0 +1,56 @@
+{
+  "M001": {
+    "temperature": [
+      {
+        "key": "Bearable",
+        "data": "50\u00B0c"
+      },
+      {
+        "key": "Critical",
+        "data": "80\u00B0c"
+      },
+      {
+        "key": "Scenario",
+        "data": "Type A"
+      }
+    ],
+    "vibration": [
+      {
+        "key": "Bearable",
+        "data": "50m/s"
+      },
+      {
+        "key": "Scenario",
+        "data": "Type B"
+      }
+    ],
+    "oilLevel": [
+      {
+        "key": "Bearable",
+        "data": "60%"
+      },
+      {
+        "key": "Critical",
+        "data": "40%"
+      },
+      {
+        "key": "Scenario",
+        "data": "Type A"
+      }
+    ],
+    "noise": [
+      {
+        "key": "Bearable",
+        "data": "30db"
+      },
+      {
+        "key": "Critical",
+        "data": "60db"
+      },
+      {
+        "key": "Scenario",
+        "data": "Type A"
+      }
+    ]
+  }
+}

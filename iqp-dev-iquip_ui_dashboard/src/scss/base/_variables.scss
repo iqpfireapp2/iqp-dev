@@ -1,0 +1,44 @@
+@import './../bootstrap-variables';
+@import './../core/variables';
+
+
+/*  Font Colors*/
+$base-font-size: 15px;
+$base-font-family: "Segoe UI","Segoe WP", "Segoe Regular", sans-serif;
+$base-font-color: #666666;
+
+
+/* BG color*/
+$primary-color:#00aff0;
+$secondary-color:#7fba00;
+$light-color:#e4eef2;
+$dark-color:#333333;
+
+
+$showcase-height:1000px;
+$showcase-image:'../img/Milling.jpg';
+
+
+//Header Navigation
+$btn-hamburger-color: #9d9d9d;
+$btn-hamburger-color-focus: #fff;
+$btn-hamburger-bg-color-focus: transparent;
+$header-top: 52px;
+
+//Sidebar Navigation
+$nav-side-menu-bg-color: #222;
+$nav-side-menu-color: #9d9d9d;
+$nav-side-menu-border-left-color: #65727d;
+$nav-side-menu-border-left-color-hover: #d19b3d;
+$nav-side-menu-bg-color-hover: #4f5b69;
+$nav-side-menu-width: 230px;
+$nav-side-menu-transition: transform .3s ease-in-out,width .3s ease-in-out;
+
+//ProcessingLine componenet
+$processing-line-heading-bg-color: #f4f4f4;
+$processing-line-heading-color: #565656;
+$processing-line-green-status: #4dbd74;
+$processing-line-red-status: #f86c6b;
+$processing-line-amber-status: #ffbe70;
+$processing-line-border: #dbdbdb;
+$processing-line-border-bg-color: white;

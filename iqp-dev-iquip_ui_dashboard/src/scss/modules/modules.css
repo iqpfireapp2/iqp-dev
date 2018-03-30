@@ -1,0 +1,149 @@
+/*  Font Colors*/
+/* BG color*/
+.col-lg-3 .col-xs-12 .col-md-3 {
+  border: 2px solid blue;
+  position: relative;
+  display: inline-block; }
+
+.circle {
+  margin: 1em auto;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border-width: 20px;
+  border-style: solid;
+  border-color: red green green green;
+  transform: rotate(45deg); }
+
+.noti_user {
+  float: left; }
+
+.section-showcase {
+  height: auto;
+  width: auto;
+  display: block;
+  background-color: beige;
+  padding-top: 40px;
+  padding-bottom: 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  margin-left: 2vw;
+  margin-right: 2vw; }
+
+.blockprocessingline {
+  height: auto;
+  width: 88vw;
+  position: relative;
+  display: block;
+  align-items: center;
+  border-radius: 10px;
+  background-color: lightgray;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  line-height: 20px;
+  margin-bottom: 1vw;
+  justify-content: center; }
+
+.block {
+  height: auto;
+  width: 250px;
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: lightskyblue;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  line-height: 0vw;
+  justify-content: center; }
+
+.machinecard {
+  height: auto;
+  line-height: 0vw;
+  width: 230px;
+  border-radius: 10px;
+  background-color: #eee;
+  word-break: break-all;
+  position: relative;
+  border: 3px solid #e4eef2;
+  display: inline-block;
+  align-items: center;
+  justify-content: center; }
+  .machinecard:hover, .machinecard:focus {
+    border: 2px solid #7fba00;
+    flex: 1; }
+
+.machinecard p {
+  float: left;
+  font-size: 2vw;
+  line-height: 0vw; }
+
+.thumbnail1 {
+  border-radius: 10px;
+  background-color: brown;
+  text-align: center; }
+
+.fa-cog {
+  color: green; }
+  .fa-cog:hover, .fa-cog:focus, .fa-cog:active {
+    color: red; }
+
+.content {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  height: 800px; }
+
+.iconsize {
+  width: 2vw;
+  height: 2vw; }
+
+body {
+  padding-top: 20px; }
+
+.carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px; }
+
+/* The controlsy */
+.carousel-control {
+  left: -12px;
+  height: 40px;
+  width: 40px;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  margin-top: 90px; }
+
+.carousel-control.right {
+  right: -12px; }
+
+/* The indicators */
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px; }
+
+/* The colour of the indicators */
+.carousel-indicators li {
+  background: #cecece; }
+
+.carousel-indicators .active {
+  background: #428bca; }
+
+/*# sourceMappingURL=modules.css.map */

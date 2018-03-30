@@ -1,0 +1,38 @@
+[
+  {
+    "displayName": "Temperature",
+    "child": [
+      {
+        "databaseKey": "temperature",
+        "displayName": "Name"
+      }
+    ]
+  },
+  {
+    "displayName": "Vibration",
+    "child": [
+      {
+        "databaseKey": "vibration",
+        "displayName": "Name"
+      }
+    ]
+  },
+  {
+    "displayName": "Oil Level",
+    "child": [
+      {
+        "databaseKey": "oilLevel",
+        "displayName": "Name"
+      }
+    ]
+  },
+  {
+    "displayName": "Noise",
+    "child": [
+      {
+        "databaseKey": "noise",
+        "displayName": "Name"
+      }
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+@import './../base/_variables.scss';
+
+.nav-side-menu {
+  position: fixed;
+  background-color: $nav-side-menu-bg-color;
+  width: $nav-side-menu-width;
+  transition: $nav-side-menu-transition;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1030;
+  ul, li {
+    list-style: none;
+    padding: 0;
+    line-height: 35px;
+    cursor: pointer;
+  }
+  li {
+    border-left: 3px solid $nav-side-menu-border-left-color;
+    a {
+      text-decoration: none;
+      color: $nav-side-menu-color;
+      display: block;
+      i {
+        padding-left: 10px;
+        width: 20px;
+        padding-right: 30px;
+      }
+    }
+    &:hover {
+      border-left: 3px solid $nav-side-menu-border-left-color-hover;
+      background-color: $nav-side-menu-bg-color-hover;
+      -webkit-transition: all 300ms ease;
+      -moz-transition: all 300ms ease;
+      -o-transition: all 300ms ease;
+      -ms-transition: all 300ms ease;
+      transition: all 300ms ease;
+    }
+  }
+  &.shown {
+    transform: translate(0,0);
+  }
+  transform: translate(-$nav-side-menu-width,0);
+}
+
+@media (max-width: 768px) {
+  .nav-side-menu {
+    top: 67px;
+  }
+}
+
+@media (max-device-width: 768px) {
+  .nav-side-menu {
+    top: 67px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-side-menu {
+    top: 52px;
+  }
+}
+
+@media (min-device-width: 768px) {
+  .nav-side-menu {
+    top: 52px;
+  }
+}
+
+.sidebar-user-icon{
+  width: 70px !important;
+}
+
+.sidebar-user-name{
+  display: inline-block;
+  h4{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-device-width: 768px) {
+  .sidebar-shown {
+    position: relative;
+    width: calc(100% - #{$nav-side-menu-width}) !important;
+    margin-left: 0 !important;
+    -moz-transform: translate(230px,0);
+    -webkit-transform: translate(230px,0);
+    -o-transform: translate(230px,0);
+    -ms-transform: translate(230px,0);
+    transform: translate(230px,0);
+    transform: translate(230px,0);
+  }
+}
+

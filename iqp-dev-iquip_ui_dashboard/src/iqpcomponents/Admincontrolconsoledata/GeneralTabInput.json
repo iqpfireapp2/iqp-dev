@@ -1,0 +1,115 @@
+[
+   {    "id":"Processing_Line_Name",
+   "name":"Processing_Line_Name",
+    "placeholder":"Processing Line Name",
+  "className":"show"
+
+     
+      },
+    {
+        "id":"Processing_Line_no",
+   "name":"Processing_Line_no",
+    "placeholder":"Processing Line No",
+  "className":"show"
+ 
+   },
+   { 
+       "id":"Machine Name",
+   "name":"Machine Name",
+    "placeholder":"Machine Name",
+  "className":"show"
+
+
+  },
+  {
+    "id":"Machine_Number",
+   "name":"Machine_Number",
+    "placeholder":"Machine Number",
+  "className":"show"
+
+  },  {
+    "id":"Machine_Type",
+   "name":"Machine_Type",
+    "placeholder":"Machine Type",
+  "className":"show"
+
+    
+  },
+  {
+    
+    "id":"Model",
+   "name":"Model",
+    "placeholder":"Model",
+  "className":"show"
+
+  },
+  {
+    "id":"Serial_No",
+   "name":"Serial_No",
+    "placeholder":"Serial No",
+  "className":"show"
+
+    
+  },
+  {
+    "id":"Manufacture_Info",
+   "name":"Manufacture_Info",
+    "placeholder":"Manufacture_Info",
+  "className":"show"
+
+
+  },
+  {
+    "id":"Name",
+   "name":"Name",
+    "placeholder":"Name",
+  "className":"show"
+
+  },
+  {
+    "id":"Phone",
+   "name":"Phone",
+    "placeholder":"Phone",
+  "className":"show"
+
+
+
+  },
+  {
+    "id":"Email",
+   "name":"Email",
+    "placeholder":"Email",
+  "className":"show"
+
+    
+  },
+  {  "id":"Address",
+   "name":"Address",
+    "placeholder":"Address",
+  "className":"show"
+
+
+  },
+  
+  {
+   "id":"Seller Info",
+   "name":"Seller Info",
+    "placeholder":"Seller Info",
+  "className":"hide"
+
+  },
+  {
+    
+     "id":"Installation_Date",
+   "name":"Installation_Date",
+    "placeholder":"dd/mm/yyyy"
+  
+  },
+  { 
+     "id":"Purpose/Description",
+   "name":"Purpose/Description",
+    "placeholder":"Purpose_Description"
+  
+ }
+
+]

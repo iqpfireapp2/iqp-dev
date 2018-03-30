@@ -1,0 +1,49 @@
+[
+  {
+    "name": "heading",
+    "content": "Settings"
+  },
+  {
+    "name": "item",
+    "a": {
+      "href": "#",
+      "content": "Profile",
+      "i": {
+        "className": "fa-user"
+      }
+    }
+  },
+  {
+    "name": "item",
+    "a": {
+      "href": "#",
+      "content": "Inbox",
+      "i": {
+        "className": "fa-envelope"
+      }
+    }
+  },
+  {
+    "name": "item",
+    "a": {
+      "href": "#",
+      "content": "Settings",
+      "i": {
+        "className": "fa-gear"
+      }
+    }
+  },
+  {
+    "name": "divider"
+  },
+  {
+    "name": "item",
+    "a": {
+      "href": "#",
+      "content": "Log Out",
+      "i": {
+        "className": "fa-power-off"
+      }
+    }
+  }
+]
